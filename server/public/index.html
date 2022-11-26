@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" >
+    <title>Gallery</title>
+</head>
+<body>
+    <h2>
+        Simple Gallery
+    </h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita, incidunt dolorum neque mollitia atque velit explicabo recusandae provident aperiam nesciunt obcaecati officia amet aliquam, enim inventore quo deserunt architecto?
+    </p>
+
+    
+
+    <form id="addForm" method="post" action="/add" enctype="multipart/form-data">
+        <label for="title">
+            Title:
+        </label>
+        <input type="text" id="title" name="title" value="" required/>
+        <label for="description">
+            Description:
+        </label>
+        <input type="text" id="description" name="description" value="" required/>
+        <label for="file">Add Image Below</label>
+        <input type="file" id="file" name="file"required/>
+        <button type="submit" id="add">
+            Add Image
+        </button>
+    </form>
+
+    <hr></hr>
+    <h3>
+        All Photes are below
+    </h3>
+
+    <div class="images">
+        
+    </div>
+
+    <button id="removeAll">
+        Remove All
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>

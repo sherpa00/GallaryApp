@@ -1,0 +1,115 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 46px;
+    color: blue;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+form label {
+    font-size: 20px;
+    color: blue;
+}
+
+form input {
+    font-size: 20px;
+    padding: 15px 25px;
+    border: 2px solid green;
+}
+
+button {
+    font-size: 20px;
+    color: black;
+    padding: 10px 15px;
+    border:2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+h3 {
+    font-size: 30px;
+    color: blue;
+}
+
+div.images {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 0px 50px;
+}
+
+.images .image {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#add {
+    background-color: rgb(70, 70, 236);
+}
+
+#add:hover,#update:hover,#delete:hover {
+    background-color: gray;
+}
+
+#update {
+    background-color: lightgreen;
+}
+
+#delete {
+    background-color: crimson;
+}
+
+
+
