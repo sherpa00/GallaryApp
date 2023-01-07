@@ -1,17 +1,4 @@
-const testList = [
-    {
-        imgUrl : "./test.jpg",
-        name: "DeadPool Figure",
-        _id: "dfjlksdjflkdsjflkjlk",
-        Date: "2020-20-24"
-    },
-    {
-        imgUrl : "./test.jpg",
-        name: "DeadPool Figure",
-        _id: "dfjlksdjflkdsjflkjlk",
-        Date: "2020-20-24"
-    },
-];
+
 
 // image add elememt
 const addForm = document.getElementById("addForm");
